@@ -14,6 +14,21 @@
         display: none;
     }
 
+    .container-sb-center{
+        display: flex;
+        flex-direction: column;;
+
+    }
+
+    .container-sb-center ul>*,
+    .container-sb-center>*{
+        padding-bottom: 1rem;
+    }
+
+    .p-media-x{
+        padding-left: 2rem;
+    }
+
 }
 
 @media screen and (min-width:768px) {}

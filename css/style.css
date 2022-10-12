@@ -18,17 +18,43 @@ body {
 img {
     width: 100%;
     display: block;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 li {
     list-style: none;
 }
 
-li a img{
+a{
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+li a img {
     width: 30px;
     margin-bottom: .5rem;
 }
+
+/* CLASSI UTILITY */
+.p-y-1_5{
+    padding: 1.5rem 0;
+}
+
+.fx-sh {
+    flex-shrink: 0;
+}
+
+.fx-g {
+    flex-grow: 1;
+}
+
+.white{
+    color: white;
+}
+
+
+
+
 
 .container-top {
     flex-grow: 1;
@@ -56,13 +82,6 @@ li a img{
     overflow: auto;
 }
 
-.fx-sh{
-    flex-shrink: 0;
-}
-
-.fx-g{
-    flex-grow: 1;
-}
 
 .upgrade-container {
     flex-shrink: 1;
@@ -72,7 +91,6 @@ li a img{
     flex-grow: 1;
 }
 
-
 .img-profile {
     border-radius: 100%;
     background: gray;
@@ -80,23 +98,36 @@ li a img{
     margin-bottom: 0;
 }
 
-.logo-s{
+.logo-s {
     margin-bottom: 1rem;
 }
 
-.logo-l{
+.logo-l,
+.container-sb-center {
     display: none;
 }
 
-
-.upgrade-container{
+.upgrade-container {
     background-color: #080B12;
 }
 
-.content-container{
+.content-container {
     background-color: var(--color-secondary);
 }
 
-.container-bottom{
+.container-bottom {
     background-color: #282828;
 }
+
+.more-icon {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    border: 1px solid;
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    margin-right: .5rem;
+
+}
+
+
