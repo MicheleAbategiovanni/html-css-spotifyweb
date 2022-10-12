@@ -15,9 +15,7 @@
     }
 
     .container-sb-center{
-        display: flex;
-        flex-direction: column;;
-
+        display: inline-block;
     }
 
     .container-sb-center ul>*,
@@ -26,9 +24,19 @@
     }
 
     .p-media-x{
-        padding-left: 2rem;
+        padding: 1rem 2rem 1rem 2rem;
     }
 
+    .flex {
+        display: flex;
+        align-items: center;
+        padding-bottom: .5rem;
+    }
+
+    .dsp-inlblock{
+        display: inline-block;
+    }
+    
 }
 
 @media screen and (min-width:768px) {}
