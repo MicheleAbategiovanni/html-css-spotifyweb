@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    min-height: 50px;
 }
 
 body{
@@ -16,10 +15,14 @@ body{
     flex-direction: column;
 }
 
-body>*,
-.container-top>*,
-.main-container>*{
-    border: 1px dashed red;
+img{
+    width: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+li{
+    list-style: none;
 }
 
 .container-top{
@@ -32,9 +35,14 @@ body>*,
 }
 
 .sidebar{
+    display: flex;
+    flex-direction: column;
     width: 50px;
     flex-grow: 1;
     flex-shrink: 1;
+    background-color: black;
+    color: var(--color-primary);
+
 }
 
 .main-container{
@@ -50,4 +58,16 @@ body>*,
 
 .content-container{
     flex-grow: 1;
+}
+
+.sidebar-top{
+    flex-shrink: 1;
+}
+
+.sidebar-center{
+    flex-grow: 1;
+}
+
+.sidebar-bottom{
+    flex-shrink: 1;
 }
