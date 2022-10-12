@@ -43,7 +43,6 @@ li a img{
     display: flex;
     flex-direction: column;
     width: 50px;
-    flex-grow: 1;
     flex-shrink: 1;
     background-color: black;
     color: var(--color-primary);
@@ -53,7 +52,7 @@ li a img{
 .main-container {
     display: flex;
     flex-direction: column;
-    width: calc(100vw - 50px);
+    flex-grow: 1;
     overflow: auto;
 }
 
