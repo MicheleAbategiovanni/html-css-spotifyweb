@@ -87,3 +87,16 @@ li a img{
 .logo-l{
     display: none;
 }
+
+
+.upgrade-container{
+    background-color: #080B12;
+}
+
+.content-container{
+    background-color: var(--color-secondary);
+}
+
+.container-bottom{
+    background-color: #282828;
+}
