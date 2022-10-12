@@ -25,6 +25,11 @@ li {
     list-style: none;
 }
 
+li a img{
+    width: 30px;
+    margin-bottom: .5rem;
+}
+
 .container-top {
     flex-grow: 1;
     display: flex;
@@ -42,10 +47,7 @@ li {
     flex-shrink: 1;
     background-color: black;
     color: var(--color-primary);
-}
-
-.sidebar li {
-    padding: 10px 10px;
+    padding: 0.5rem;
 }
 
 .main-container {
@@ -53,6 +55,14 @@ li {
     flex-direction: column;
     width: calc(100vw - 50px);
     overflow: auto;
+}
+
+.fx-sh{
+    flex-shrink: 0;
+}
+
+.fx-g{
+    flex-grow: 1;
 }
 
 .upgrade-container {
@@ -63,24 +73,18 @@ li {
     flex-grow: 1;
 }
 
-.sidebar-top {
-    flex-shrink: 1;
-}
-
-.sidebar-center {
-    flex-grow: 1;
-}
-
-.sidebar-bottom {
-    flex-shrink: 1;
-}
 
 .img-profile {
     border-radius: 100%;
     background: gray;
     aspect-ratio: 1/1;
+    margin-bottom: 0;
 }
 
-.img-download{
-    padding: 5px;
+.logo-s{
+    margin-bottom: 1rem;
+}
+
+.logo-l{
+    display: none;
 }
