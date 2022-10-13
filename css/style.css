@@ -149,11 +149,22 @@ li a img {
     flex-wrap: wrap;
 }
 
-.center-content{
+.center-content {
     justify-content: center;
 }
 
-.row>*{
+.row>* {
     padding-right: .5rem;
     padding-bottom: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.col-xs-1_2{
+    flex-basis: 50%;
 }
