@@ -223,3 +223,17 @@ li a img {
 .sz-ico-audio{
     font-size: 13px;
 }
+
+.scroll-advancement-audio {
+    width: 20px;
+    border: 1px solid white;
+    height: rem;
+    border-radius: 1px;
+  }
+
+  .scroll-advancement-durate{
+    width: 20%;
+    border: 1px solid white;
+    height: rem;
+    border-radius: 1px;
+  }
