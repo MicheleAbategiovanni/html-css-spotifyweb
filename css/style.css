@@ -186,3 +186,9 @@ li a img {
 .col-xs-1_3{
     padding-bottom: 1rem;
 }
+
+.scroll-time{
+    width: 70%;
+    border: 1px solid grey;
+    height: 2px;
+}
