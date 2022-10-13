@@ -27,7 +27,7 @@
         padding: 1rem 2rem 1rem 2rem;
     }
 
-    .flex {
+    .flex-s {
         display: flex;
         align-items: center;
         padding-bottom: .5rem;
@@ -37,12 +37,28 @@
         display: inline-block;
     }
 
+    .p-info-song{
+        padding-right: 1rem;
+    }
+
 }
 
 @media screen and (min-width:768px) {
 
     .col-m-1_4 {
         flex-basis: calc(100% / 4);
+    }
+
+    .p-info-song{
+        padding-right: 2rem;
+    }
+
+    .flex-m{
+        display: flex;
+    }
+
+    .flex-m>*{
+        padding-right: .5rem;
     }
 }
 

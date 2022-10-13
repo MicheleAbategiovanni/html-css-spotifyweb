@@ -176,11 +176,11 @@ li a img {
 .sidebar-btm{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem;
 }
 
 .img-sb-btm{
-    width: 30px;
+    width: 40px;
 }
 
 .col-xs-1_3{
@@ -191,4 +191,8 @@ li a img {
     width: 70%;
     border: 1px solid grey;
     height: 2px;
+}
+
+.sidebar-btm .row>*{
+    padding-right: 1rem;
 }
