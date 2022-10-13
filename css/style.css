@@ -102,6 +102,8 @@ li a img {
 
 .upgrade-container {
     background-color: #080B12;
+    text-align: end;
+    padding-right: 20px;
 }
 
 .content-container {
@@ -132,4 +134,11 @@ li a img {
 .border {
     border: 1px solid;
     width: 100%;
+}
+
+.btn-upgrade {
+    background-color: var(--color-secondary);
+    border-radius: 50px;
+    padding: .5rem 2rem;
+    color: white;
 }
