@@ -56,11 +56,11 @@ li a img {
     color: var(--color-primary);
 }
 
-.mr-x-0_5{
+.m-rx-0_5 {
     margin-right: .5rem;
 }
 
-.dsp-none{
+.dsp-none {
     display: none;
 }
 
@@ -129,7 +129,7 @@ li a img {
     color: var(--color-primary);
 }
 
-.border{
+.border {
     border: 1px solid;
     width: 100%;
 }
