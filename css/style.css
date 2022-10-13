@@ -172,3 +172,17 @@ li a img {
 .img-radius {
     border-radius: 100%;
 }
+
+.sidebar-btm{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.img-sb-btm{
+    width: 30px;
+}
+
+.col-xs-1_3{
+    padding-bottom: 1rem;
+}
