@@ -30,7 +30,6 @@
     .flex-s {
         display: flex;
         align-items: center;
-        justify-content: center;
         padding-bottom: .5rem;
     }
 
@@ -40,6 +39,14 @@
 
     .p-info-song {
         padding-right: 1rem;
+    }
+
+    .selection-items-sidebar {
+        border: 1px solid greenyellow;
+        width: 35px;
+        transform: rotate(90deg);
+        position: absolute;
+        left: -.7rem;
     }
 
 }

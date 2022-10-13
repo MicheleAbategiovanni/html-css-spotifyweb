@@ -237,3 +237,9 @@ li a img {
     height: rem;
     border-radius: 1px;
   }
+
+  .border-green{
+    border: 1px solid greenyellow;
+    width: 35px;
+    margin: auto;
+  }
