@@ -154,7 +154,7 @@ li a img {
     justify-content: center;
 }
 
-.row>* {
+.content-container .row>* {
     padding-right: .5rem;
     padding-bottom: 2rem;
 }
