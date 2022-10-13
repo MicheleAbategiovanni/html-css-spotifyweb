@@ -40,14 +40,14 @@
 }
 
 @media screen and (min-width:768px) {
-    
-    .col-m-1_4{
+
+    .col-m-1_4 {
         flex-basis: calc(100% / 4);
     }
 }
 
 @media screen and (min-width:992px) {
-    .col-l-1_6{
+    .col-l-1_6 {
         flex-basis: calc(100% / 6);
     }
 }

@@ -165,6 +165,10 @@ li a img {
     align-items: center;
 }
 
-.col-xs-1_2{
+.col-xs-1_2 {
     flex-basis: 50%;
+}
+
+.img-radius {
+    border-radius: 100%;
 }
