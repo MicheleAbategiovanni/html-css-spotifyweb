@@ -107,4 +107,9 @@
     }
 }
 
-@media screen and (min-height:350px) {}
+@media screen and (min-height:350px) {
+    .sidebar{
+        overflow: auto;
+        flex-shrink: 0;
+    }
+}
