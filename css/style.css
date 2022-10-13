@@ -220,7 +220,7 @@ li a img {
     border-radius: 20px;
 }
 
-.sz-ico-audio{
+.sz-ico-audio {
     font-size: 13px;
 }
 
@@ -229,17 +229,41 @@ li a img {
     border: 1px solid white;
     height: rem;
     border-radius: 1px;
-  }
+}
 
-  .scroll-advancement-durate{
+.scroll-advancement-durate {
     width: 20%;
     border: 1px solid white;
     height: rem;
     border-radius: 1px;
-  }
+}
 
-  .border-green{
+.border-green {
     border: 1px solid greenyellow;
     width: 35px;
     margin: auto;
-  }
+}
+
+.center-content li a:hover,
+.sidebar-center li a:hover,
+.sidebar-bottom li a:hover {
+    color: white;
+
+}
+
+.sidebar-center li a i:hover {
+    background-color: white;
+}
+
+.fa-heart:hover,
+.fa-folder:hover {
+    color: white
+}
+
+.fa-circle-play:hover {
+    font-size: 40px;
+}
+
+.btn-upgrade:hover {
+    font-size: 1rem;
+}
