@@ -30,6 +30,7 @@
     .flex-s {
         display: flex;
         align-items: center;
+        justify-content: center;
         padding-bottom: .5rem;
     }
 
@@ -63,6 +64,13 @@
 
     .scroll-time-m {
         width: 250px;
+        border: 1px solid grey;
+        height: .3rem;
+        border-radius: 20px;
+    }
+
+    .scroll-audio-m{
+        width: 90px;
         border: 1px solid grey;
         height: .3rem;
         border-radius: 20px;
