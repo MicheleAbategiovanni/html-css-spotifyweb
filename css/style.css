@@ -245,8 +245,7 @@ li a img {
 }
 
 .center-content li a:hover,
-.sidebar-center li a:hover,
-.sidebar-bottom li a:hover {
+.sidebar-center li a:hover{
     color: white;
 
 }
@@ -266,4 +265,9 @@ li a img {
 
 .btn-upgrade:hover {
     font-size: 1rem;
+}
+
+.sidebar-bottom li a:hover >*,
+.sidebar-top li a:hover >*{
+    color: white;
 }

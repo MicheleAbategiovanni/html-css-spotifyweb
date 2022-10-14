@@ -49,8 +49,9 @@
         left: -.7rem;
     }
 
-    .sidebar-top li a:hover {
+    .p-info-song:hover >*{
         color: white;
+        text-decoration: underline;
     }
 
 }
@@ -63,12 +64,6 @@
 
     .p-info-song {
         padding-right: 2rem;
-    }
-
-    .p-info-song:hover {
-
-        color: white;
-        text-decoration: underline;
     }
 
     .flex-m {
