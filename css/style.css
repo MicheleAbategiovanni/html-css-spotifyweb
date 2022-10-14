@@ -39,13 +39,14 @@ section>*{
     padding-bottom: 1.5rem;
 }
 
-.card>*{
-    padding-bottom: .5rem;
-}
 
 /*---------------- CLASSI UTILITY */
 .p-y-1_5 {
     padding: 1.5rem 0;
+}
+
+.p-btm-0_5{
+    padding-bottom: 0.5rem;
 }
 
 .fx-sh {
@@ -267,12 +268,12 @@ section>*{
     color: white
 }
 
-.fa-circle-play:hover {
-    font-size: 40px;
+.hover-play:hover {
+    transform: scale(1.1);
 }
 
 .btn-upgrade:hover {
-    font-size: 1rem;
+    transform: scale(1.1);
 }
 
 .sidebar-bottom li a:hover>*,
