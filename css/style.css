@@ -314,13 +314,19 @@ li a img {
     position: absolute;
 }
 
-.audio-icon {
-
-
+.time-icon {
     top: -6px;
     left: 22px;
 }
 
-.scroll-time:hover .scroll-advancement-time>* {
+.scroll-time:hover .scroll-advancement-time>*,
+.scroll-audio:hover .scroll-advancement-audio>* {
     display: block;
+}
+
+.audio-icon{
+    color: white;
+    top: -3px;
+    right: 21px;
+    font-size: 10px;
 }
