@@ -49,7 +49,7 @@
         left: -.7rem;
     }
 
-    .p-info-song:hover >*{
+    .p-info-song:hover>* {
         color: white;
         text-decoration: underline;
     }
@@ -87,6 +87,11 @@
         height: .3rem;
         border-radius: 20px;
     }
+
+    .audio-icon {
+        top: -6px;
+        left: 46px;
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -100,10 +105,16 @@
         height: .3rem;
         border-radius: 20px;
     }
+
+    .audio-icon {
+        top: -6px;
+        left: 84px;
+    }
+
 }
 
 @media screen and (min-height:350px) {
-    .sidebar{
+    .sidebar {
         overflow: auto;
         flex-shrink: 0;
     }
