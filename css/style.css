@@ -35,6 +35,14 @@ li a img {
     margin-bottom: .5rem;
 }
 
+section>*{
+    padding-bottom: 1.5rem;
+}
+
+.card>*{
+    padding-bottom: .5rem;
+}
+
 /*---------------- CLASSI UTILITY */
 .p-y-1_5 {
     padding: 1.5rem 0;
@@ -330,3 +338,4 @@ li a img {
     right: 21px;
     font-size: 10px;
 }
+
